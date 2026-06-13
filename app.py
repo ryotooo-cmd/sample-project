@@ -1,9 +1,14 @@
-from flask import Flask, jsonify, request, abort
+from flask import Flask, jsonify, render_template, request, abort
 
 app = Flask(__name__)
 
 todos = []
 next_id = 1
+
+
+@app.route("/")
+def index():
+    return render_template("index.html")
 
 
 @app.route("/todos", methods=["GET"])
