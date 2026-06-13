@@ -1,6 +1,6 @@
 # String Utils
 
-A tiny collection of helper fucntions for working with strings.
+A tiny collection of helper functions for working with strings.
 
 ## Functions
 
